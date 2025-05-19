@@ -9,5 +9,5 @@ for col in df.columns:
 num_column=len(df.columns)
 print(f"Number of columns:{num_column}")
 #Number of rows
-rows=df.shape
-print("Number of Rows:{rows}")
+num_rows= len(df.index)
+print(f"Number of Rows:{num_rows}")
